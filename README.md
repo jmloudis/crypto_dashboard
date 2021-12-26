@@ -1,3 +1,9 @@
+# Instructions
+- In order to get the API's working you must create a .env file to store your API keys safely.
+- Create the .env file so it is in the same directory as properties.json
+- in the .env add the following:
+- REACT_APP_RAPID_API_KEY = your key
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
