@@ -5,6 +5,8 @@ function NavBar() {
 
     return (
 
+        // Very Simple Navbar UI
+
         <div>
             <ul>
                 <li><a href="default.asp">Home</a></li>
