@@ -4,6 +4,7 @@ import CurrencyConverter from "./CurrencyConverter";
 function NavBar() {
 
     return (
+
         <div>
             <ul>
                 <li><a href="default.asp">Home</a></li>
