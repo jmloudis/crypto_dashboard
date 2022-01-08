@@ -6,7 +6,6 @@ function CurrencyConverter() {
 
     const currencies = ['USD', 'BTC', 'ETH', 'XRP', 'ADA', 'LTC', 'SHIB'];
 
-
     const [chosenPrimaryCurrency, setChosenPrimaryCurrency] = useState('BTC');
     const [chosenSecondaryCurrency, setChosenSecondaryCurrency] = useState('USD');
     const [amount, setAmount] = useState(1);
