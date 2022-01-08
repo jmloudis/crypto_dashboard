@@ -1,1 +1,1 @@
-import { default as Navbar } from './NavBar.js';
+import { default as Navbar } from './NavBar.jsx';

@@ -10,7 +10,7 @@ function Rank() {
 
     <div className="rank">
         <div className="navBar2">
-            <NavBar/>
+            {/*<NavBar/>*/}
         </div>
 
         <div className="footer">
