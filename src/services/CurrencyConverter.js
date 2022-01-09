@@ -1,11 +1,10 @@
 import {useState} from "react";
-import ExchangeRate from './ExchangeRate';
+import ExchangeRate from '../components/ExchangeRate';
 import axios from "axios";
 
 function CurrencyConverter() {
 
     const currencies = ['USD', 'BTC', 'ETH', 'XRP', 'ADA', 'LTC', 'SHIB'];
-
 
     const [chosenPrimaryCurrency, setChosenPrimaryCurrency] = useState('BTC');
     const [chosenSecondaryCurrency, setChosenSecondaryCurrency] = useState('USD');

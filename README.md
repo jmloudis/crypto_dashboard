@@ -1,3 +1,8 @@
+
+# Current UI of project
+
+![alt text](https://github.com/jmloudis/crypto_dashboard/blob/Cryno/src/Images/Current%20UI.jpg)
+
 # Instructions
 - In order to get the API's working you must create a .env file to store your API keys safely.
 - Create the .env file so it is in the same directory as properties.json

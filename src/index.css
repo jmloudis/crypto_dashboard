@@ -1,120 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.app{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.app_wrapper {
-  display:flex;
-}
-
-.news-feed {
-  background-color: rgb(204,204,231);
-  padding: 10px;
-  margin: 5px;
-  box-shadow: 0 3px 10px rgba(0 0 0 / 0.2);
-  max-width: 300px;
-}
-
-.currency-converter {
-  background-color: rgb(230,223,211);
-  padding: 10px;
-  margin: 5px;
-  box-shadow: 0 3px 10px rgba(0 0 0 / 0.2);
-  text-align: center;
-}
-
-.exchange-rate {
-  background-color: rgb(221,213,221);
-  padding: 20px;
-  margin-top: 10px;
-  box-shadow: 0 3px 10px rgba(0 0 0 / 0.2);
-  border-radius: 10px;
-
-}
-
-.input-box{
-  background-color: rgb(218,227,238);
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0 0 0 / 0.2);
-
-}
-
-button{
-  float: right;
-  margin: 2px;
-
-}
-
-button:hover {
-  background-color: cornflowerblue;
-}
-
-.navBar1 {
-
-
-}
-
-ul {
-  float: left;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
-
-/*#nav {*/
-/*  width: 100%;*/
-/*  float: left;*/
-/*  margin: 0 0 3em 0;*/
-/*  padding: 0;*/
-/*  list-style: none;*/
-/*  background-color: #f2f2f2;*/
-/*  border-bottom: 1px solid #ccc;*/
-/*  border-top: 1px solid #ccc;*/
+/*body {*/
+/*  margin: 0;*/
+/*  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+/*    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
+/*    sans-serif;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
 /*}*/
 
+/*code {*/
+/*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
+/*    monospace;*/
+/*}*/
 
-/*#nav li a {*/
+/*.app-2{*/
+/*  display:flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.app_wrapper {*/
+/*  display:flex;*/
+/*}*/
+
+/*.news-feed {*/
+/*  background-color: rgb(204,204,231);*/
+/*  padding: 10px;*/
+/*  margin: 5px;*/
+/*  box-shadow: 0 3px 10px rgba(0 0 0 / 0.2);*/
+/*  max-width: 300px;*/
+/*}*/
+
+/*.currency-converter {*/
+/*  background-color: rgb(230,223,211);*/
+/*  padding: 10px;*/
+/*  margin: 5px;*/
+/*  box-shadow: 0 3px 10px rgba(0 0 0 / 0.2);*/
+/*  text-align: center;*/
+/*}*/
+
+/*.exchange-rate {*/
+/*  background-color: rgb(221,213,221);*/
+/*  padding: 20px;*/
+/*  margin-top: 10px;*/
+/*  box-shadow: 0 3px 10px rgba(0 0 0 / 0.2);*/
+/*  border-radius: 10px;*/
+
+/*}*/
+
+/*.input-box{*/
+/*  background-color: rgb(218,227,238);*/
+/*  padding: 30px;*/
+/*  border-radius: 10px;*/
+/*  box-shadow: 0 3px 10px rgba(0 0 0 / 0.2);*/
+/*}*/
+
+/*button{*/
+/*  float: right;*/
+/*  margin: 2px;*/
+
+/*}*/
+
+/*button:hover {*/
+/*  background-color: cornflowerblue;*/
+/*}*/
+
+/*.navBar1 {*/
+
+
+/*}*/
+
+/*ul {*/
+/*  float: left;*/
+/*  list-style-type: none;*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  overflow: hidden;*/
+/*  background-color: #333;*/
+/*}*/
+
+/*li {*/
+/*  float: left;*/
+/*}*/
+
+/*li a {*/
 /*  display: block;*/
-/*  padding: 8px 15px;*/
+/*  color: white;*/
+/*  text-align: center;*/
+/*  padding: 14px 16px;*/
 /*  text-decoration: none;*/
-/*  font-weight: bold;*/
-/*  color: #069;*/
-/*  border-right: 1px solid #ccc;*/
+/*}*/
+
+/*!* Change the link color to #111 (black) on hover *!*/
+/*li a:hover {*/
+/*  background-color: #111;*/
 /*}*/
 
