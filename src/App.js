@@ -1,5 +1,5 @@
-import NewsFeed from './components/NewsFeed';
-import CurrencyConverter from './components/CurrencyConverter';
+import NewsFeed from './services/NewsFeed';
+import CurrencyConverter from './services/CurrencyConverter';
 import NavBar from './components/NavBar';
 import Homepage from './components/Homepage';
 import Currencies from './components/Currencies';
@@ -14,6 +14,7 @@ import CryptoDash from "./components/CryptoDash";
 import "./app.css";
 import {BrowserRouter , Route,  Routes, Link, Router} from "react-router-dom";
 import {Layout, Typography, Space} from 'antd';
+
 // const App = () => {
 
 function App() {
@@ -35,9 +36,19 @@ function App() {
                           <Route path="/news" element={<News />}/>
 
                       </Routes>
-                      {/*</BrowserRouter>*/}
                   </div>
-              {/*</Layout>*/}
+              <div className="footer">
+                  <Typography.Title level={5} style={{color: 'white', textAlign: 'center'}}>
+                      CryptoWorld <br/>
+                      Developed by Jordan Loudis<br/>
+                      <Space>
+                          <a href="https://github.com/jmloudis">Github</a>
+                          <a href="https://www.linkedin.com/in/jordan-loudis-4856561ba/">LinkedIn</a>
+                          <a href="https://twitter.com/JordanDev7">Twitter</a>
+                      </Space>
+                  </Typography.Title>
+
+              </div>
 
           </div>
 

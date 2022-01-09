@@ -1,5 +1,5 @@
 import {useState} from "react";
-import ExchangeRate from './ExchangeRate';
+import ExchangeRate from '../components/ExchangeRate';
 import axios from "axios";
 
 function CurrencyConverter() {

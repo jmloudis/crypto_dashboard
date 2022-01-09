@@ -1,13 +1,13 @@
 import NavBar from "./NavBar";
-import CurrencyConverter from "./CurrencyConverter";
-import NewsFeed from "./NewsFeed";
+import CurrencyConverter from "../services/CurrencyConverter";
+import NewsFeed from "../services/NewsFeed";
 import Rank from "./Rank";
 
 
 function CryptoDash() {
      return (
-         <div className="app-2">
-             <div className="navBar1">
+         <div className="app">
+             <div className="navbar">
                  <NavBar />
              </div>
              <h1>Crypto Dashboard</h1>
