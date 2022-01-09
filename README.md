@@ -1,3 +1,7 @@
+# Current UI of project
+
+![alt text](https://github.com/jmloudis/crypto_dashboard/blob/Cryno/src/Images/Current%20UI.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
